@@ -1,0 +1,43 @@
+/*Body*/
+body {
+	background-image: url("BalatroBackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+	margin: 0;
+}
+/*Navbar shenanigans*/
+ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+/*Balatro Logo CSS*/
+ul a img {
+	display: block;
+	width: 10em;
+}
+/*Header*/
+h1{
+	text-align: center;
+}
+/*Text below header*/
+p {
+	text-align: center;
+}
+/*Puts space between images and the edge of the screen*/
+div img {
+	margin-right: 4em;
+	padding-left: 25%;
+}
+/*Centers images*/
+.container {
+	display: flex;
+}
+
+.image {
+	flex: 20%;
+	padding: 5px;
+}
