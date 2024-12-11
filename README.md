@@ -1,1 +1,1 @@
-Open "WebDevTestGB." Made for a class project.
+Open "WebDevprojectGB." Made for a class project.
