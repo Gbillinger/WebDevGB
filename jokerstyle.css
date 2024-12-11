@@ -25,19 +25,53 @@ h1 {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 5em;
 	text-shadow: 1px 1px 10px #fff;
-
-
 }
-/*Text below header*/
+
+/*Joker description text*/
 p {
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 2em;
+	text-shadow: 1px 1px 15px #fff;
+}
+
+/*Resizes joker image*/
+div img {
+	height: 25em;
 }
 
 /*Puts space between images and the edge of the screen*/
 div img {
 	margin-right: 4em;
-	padding-left: 25%;
+	padding-left: 40%;
+}
 
+/*Puts text on the right of the image*/
+.gridtext {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+}
+
+/*Mult highlight*/
+.mult {
+  color: #fff;
+  background-color: #ff4c40;
+  border-radius: 0.4em;
+  padding: 0 0.4ch;
+}
+
+/*Centers images*/
+.container {
+	display: flex;
+}
+
+.image {
+	flex: 20%;
+	padding: 5px;
+}
+
+.container img {
+	height: 10em;
 }
