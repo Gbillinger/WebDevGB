@@ -33,6 +33,7 @@ p {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 2em;
 	text-shadow: 1px 1px 15px #fff;
+	color: #222;
 }
 
 /*Resizes joker image*/
@@ -42,8 +43,7 @@ div img {
 
 /*Puts space between images and the edge of the screen*/
 div img {
-	margin-right: 4em;
-	padding-left: 40%;
+	margin-left: 37%;
 }
 
 /*Puts text on the right of the image*/
@@ -65,10 +65,12 @@ div img {
 /*Centers images*/
 .container {
 	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .image {
-	flex: 20%;
+	flex: 10px;
 	padding: 5px;
 }
 
